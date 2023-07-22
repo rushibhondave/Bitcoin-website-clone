@@ -16,7 +16,7 @@ function Subcoin() {
           .get
           ( 
             
-      "https://api.blockchain.com/v3/exchange/tickers "
+      //"https://api.blockchain.com/v3/exchange/tickers "
          );
 
         setSubcoin(data);

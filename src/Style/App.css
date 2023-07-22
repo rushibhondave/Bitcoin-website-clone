@@ -369,6 +369,10 @@ h5 {
     width: 200px;
     height: 200px;
   }
+  .Playbutton
+  {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1500px) {
@@ -425,7 +429,7 @@ h2 {
   width: 100vh;
   font-size: 124%;
   color: #4d5060;
-  margin: auto;
+  text-align: center;
 }
 
 .aboutpara {
@@ -493,12 +497,12 @@ h2 {
     width: auto;
     font-size: small;
     padding: auto;
+    text-align: center;
   }
 
   .startbutton1 {
     margin: 2rem;
   }
- 
 
   .connect {
     margin-top: 1rem;
@@ -519,11 +523,12 @@ h2 {
   .Text {
     display: flex;
     justify-content: center;
-    width: 60vh;
+    width: 70vh;
     font-size: 1.1rem;
     word-wrap: break-word;
     flex-wrap: wrap;
     margin: auto;
+    text-align: center;
   }
 
   .img11 {
@@ -531,10 +536,12 @@ h2 {
     margin: auto;
   }
 
- 
+  .startbutton {
+    margin-top: 10rem;
+  }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+@media only screen and (min-width: 1000px) and (max-width: 1599px) {
   .h22 {
     margin-top: 10rem;
     font-size: 3rem;
@@ -550,11 +557,12 @@ h2 {
   .Text {
     display: flex;
     justify-content: center;
-    width: 80vh;
+    width: 70vh;
     font-size: 1.1rem;
     word-wrap: break-word;
     flex-wrap: wrap;
     margin: auto;
+    text-align: center;
   }
 
   .Mining {
@@ -563,11 +571,14 @@ h2 {
     width: 40vh;
   }
 
+  .startbutton {
+    margin: 10rem;
+  }
 }
 
-@media only screen and (max-width: 2000px) {
-  .Text {
-    margin: auto;
+@media only screen and (min-width: 1600px) and (max-width: 2500px) {
+  .aboutpara {
+  margin-left: 50rem;
   }
 }
 
