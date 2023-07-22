@@ -12,11 +12,9 @@ function ExchangeCoin() {
   useEffect(() => {
     try {
       const fetchCoins = async () => {
-        const { data } = await axios
-          .get
-      ( 
-   //  "https://api.coingecko.com/api/v3/exchanges"
-       );
+        const { data } = await axios.get(
+          "https://api.coingecko.com/api/v3/exchanges"
+        );
         setco(data);
         setloading(false);
       };

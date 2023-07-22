@@ -168,9 +168,11 @@ svg:not(:host).svg-inline--fa {
 @media only screen and (max-width: 600px) {
   .Head {
     font-size: 1.3rem;
-    margin-top: 50px;
     font-weight: 500;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
   }
 
   .Playbutton {
@@ -182,13 +184,6 @@ svg:not(:host).svg-inline--fa {
   .Head {
     font-size: 2rem;
     font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Playbutton {
-    margin: 1rem;
   }
 }
 
@@ -369,8 +364,7 @@ h5 {
     width: 200px;
     height: 200px;
   }
-  .Playbutton
-  {
+  .Playbutton {
     display: none;
   }
 }
@@ -577,8 +571,9 @@ h2 {
 }
 
 @media only screen and (min-width: 1600px) and (max-width: 2500px) {
-  .aboutpara {
-  margin-left: 50rem;
+  .Text {
+    margin: auto;
+    display: block;
   }
 }
 
