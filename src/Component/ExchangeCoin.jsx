@@ -13,7 +13,7 @@ function ExchangeCoin() {
     try {
       const fetchCoins = async () => {
         const { data } = await axios.get(
-       //  "https://api.coingecko.com/api/v3/exchanges"
+         "https://api.coingecko.com/api/v3/exchanges"
         );
         setco(data);
         setloading(false);
