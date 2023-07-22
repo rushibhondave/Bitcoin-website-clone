@@ -172,7 +172,7 @@ svg:not(:host).svg-inline--fa {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
   }
 
   .Playbutton {
