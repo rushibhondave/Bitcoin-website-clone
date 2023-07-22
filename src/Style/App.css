@@ -728,6 +728,11 @@ footer {
   .login-box {
     display: none;
   }
+
+  .img11 {
+    width: 70vh;
+  
+  }
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1500px) {
@@ -736,13 +741,27 @@ footer {
   }
 
   .img11 {
-    width: 50vh;
+    width: 60vh;
     float: left;
   }
 
   .connect {
     display: none;
   }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1599px)
+{
+  .login-box {
+    margin-top: 9rem;
+  }
+
+  .img11 {
+    width: 60vh;
+
+  }
+
+
 }
 /*********************************************************** Main Footer ************************************************************/
 .Javafullstack {
